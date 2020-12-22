@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_round"
+    android:orientation="vertical"
+    tools:context=".sample5.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/ry_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round"
+        >
+
+        <ImageButton
+            android:id="@+id/btn"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/shortcut_shrink" />
+
+        <TextView
+            android:id="@+id/txtPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn"
+            android:layout_marginTop="2dp"
+            android:textColor="#000000"
+            android:text="TEST"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</FrameLayout>
